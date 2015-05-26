@@ -1,0 +1,77 @@
+﻿<Page
+    x:Class="Fixurance.HomePage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Fixurance"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="White">
+
+	<Grid.RowDefinitions>
+		<RowDefinition Height="*"/>
+		<RowDefinition Height="*"/>
+		<RowDefinition Height="*"/>
+		<RowDefinition Height="*"/>
+		<RowDefinition Height="*"/>
+		<RowDefinition Height="*"/>
+		<RowDefinition Height="*"/>
+		<RowDefinition Height="*"/>
+		<RowDefinition Height="*"/>
+		<RowDefinition Height="*"/>
+	</Grid.RowDefinitions>
+	<Grid.ColumnDefinitions>
+		<ColumnDefinition Width="*"/>
+		<ColumnDefinition Width="*"/>
+		<ColumnDefinition Width="10"/>
+		<ColumnDefinition Width="*"/>
+		<ColumnDefinition Width="10"/>
+		<ColumnDefinition Width="*"/>
+		<ColumnDefinition Width="10"/>
+		<ColumnDefinition Width="*"/>
+		<ColumnDefinition Width="10"/>
+		<ColumnDefinition Width="*"/>
+		<ColumnDefinition Width="10"/>
+		<ColumnDefinition Width="*"/>
+		<ColumnDefinition Width="*"/>
+	</Grid.ColumnDefinitions>
+
+
+    	<TextBlock Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="13" Height="76" TextWrapping="Wrap" Text="Fixurance-Home" VerticalAlignment="Top" Width="375" FontSize="48" Foreground="#FF0A0000" FontFamily="Arial" HorizontalAlignment="Right"/>
+    	 	<TextBlock Grid.Row="1" Grid.Column="0" HorizontalAlignment="right" VerticalAlignment="stretch" TextWrapping="Wrap" Foreground="#FF080000" FontSize="26.667" Text="House Type :&#xA;"/>
+    		<Button Grid.Row="1" Grid.Column="1" Content="House" HorizontalAlignment="stretch" Height="auto" VerticalAlignment="stretch" Width="auto" Background="Green" FontSize="18.667"/>
+    		<Button Grid.Row="1" Grid.Column="3" Content="Apartment" HorizontalAlignment="stretch" Height="auto" VerticalAlignment="stretch" Width="auto" Background="Green" FontSize="18.667"/>
+    		<Button Grid.Row="1" Grid.Column="5" Content="Row" HorizontalAlignment="stretch" Height="auto" VerticalAlignment="stretch" Width="auto" Background="Green" FontSize="18.667"/>
+    		<Button Grid.Row="1" Grid.Column="7" Content="Pair" HorizontalAlignment="stretch" Height="auto" VerticalAlignment="stretch" Width="auto" Background="Green" FontSize="18.667"/>
+    		<Button Grid.Row="1" Grid.Column="9" Content="Summer" HorizontalAlignment="stretch" Height="auto" VerticalAlignment="stretch" Width="auto" Background="Green" FontSize="18.667"/>
+    		<Button Grid.Row="1" Grid.Column="11" Content="Sauna" HorizontalAlignment="stretch" Height="auto" VerticalAlignment="stretch" Width="auto" Background="Green" FontSize="18.667"/>
+			<TextBlock Grid.Row="2" Grid.Column="0"  HorizontalAlignment="right" VerticalAlignment="stretch" TextWrapping="Wrap" Foreground="#FF080000" FontSize="26.667" Margin="30,0,0,0" Text="Area (m2) :&#xA;"/>
+    		<Slider Grid.Row="2" Grid.Column="1" Grid.ColumnSpan="9" Height="27" Background="Green" TickPlacement="Inline"/>
+    		<TextBlock Grid.Row="3" Grid.Column="0" HorizontalAlignment="right" VerticalAlignment="stretch" TextWrapping="Wrap" Foreground="#FF080000" FontSize="26.667" Text="Built Year :&#xA;"/>
+    		<Slider Grid.Row="3" Grid.Column="1" Grid.ColumnSpan="9" Height="27" Background="Green"/>
+    		<TextBlock Grid.Row="4" Grid.Column="0" HorizontalAlignment="right"  VerticalAlignment="stretch" TextWrapping="Wrap" Foreground="#FF080000" FontSize="26.667" Text="Address :&#xD;&#xA;"/>
+    		<TextBox Grid.Row="4" Grid.Column="1" Grid.ColumnSpan="4" HorizontalAlignment="stretch" Height="60" TextWrapping="Wrap" Text="address area" VerticalAlignment="top" Width="389" Background="#FF1BBB7A"/>
+			<TextBlock Grid.Row="5" Grid.Column="0" HorizontalAlignment="right" Foreground="#FF080000" FontSize="26.667" Text="Postal Code :&#xA;"/>
+    		<TextBox Grid.Row="5" Grid.Column="1" Height="28" VerticalAlignment="top" TextWrapping="Wrap" Text="PostalArea" Background="#FF1BBB7A"/>
+    		<TextBlock Grid.Row="6" Grid.Column="0" HorizontalAlignment="right"  VerticalAlignment="stretch" TextWrapping="Wrap" Foreground="#FF080000" FontSize="26.667" Text="Start Date :&#xA;"/>
+    		<DatePicker Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="3" HorizontalAlignment="left" Height="52" VerticalAlignment="Top" Width="262"/>
+			<TextBlock Grid.Row="7" Grid.Column="0" HorizontalAlignment="right" VerticalAlignment="stretch" Foreground="#FF080000" FontSize="26.667" Text="Billing Period :&#xA;"/>
+    		<Button Grid.Row="7" Grid.Column="1" Content="Monthly" HorizontalAlignment="stretch" Height="auto" VerticalAlignment="stretch" Width="auto" Background="Green" FontSize="18.667"/>
+    		<Button Grid.Row="7" Grid.Column="3" Content="Quarterly" HorizontalAlignment="stretch" Height="auto" VerticalAlignment="stretch" Width="auto" Background="Green" FontSize="18.667"/>
+    		<Button Grid.Row="7" Grid.Column="5" Content="Yearly" HorizontalAlignment="stretch" Height="auto" VerticalAlignment="stretch" Width="auto" Background="Green" FontSize="18.667"/>
+			<TextBlock Grid.Row="8" Grid.Column="0" HorizontalAlignment="right" VerticalAlignment="stretch" TextWrapping="Wrap" Foreground="#FF080000" FontSize="26.667" Text="Currency :&#xA;"/>
+    		<Button Grid.Row="8" Grid.Column="1" Content="Euro" HorizontalAlignment="stretch" Height="auto" VerticalAlignment="stretch" Width="auto" Background="Green" FontSize="18.667"/>
+    		<Button Grid.Row="8" Grid.Column="3" Content="Dollar" HorizontalAlignment="stretch" Height="auto" VerticalAlignment="stretch" Width="auto" Background="Green" FontSize="18.667"/>
+		
+    	<Button Grid.Row="9" Grid.Column="12" Content="Reset" HorizontalAlignment="stretch" Height="auto" VerticalAlignment="stretch" Width="152" Background="#FF8D7171" FontSize="18.667" FontWeight="Bold"/>
+    	<Button Grid.Row="9" Grid.Column="11" Content="Estimate" HorizontalAlignment="stretch" Height="auto" VerticalAlignment="stretch" Width="152" Background="#FF8D7171" FontSize="18.667" FontWeight="Bold"/>
+    	
+    	
+    	
+    	
+    	
+   
+    </Grid>
+</Page>
+
