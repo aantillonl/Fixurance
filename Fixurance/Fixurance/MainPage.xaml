@@ -1,0 +1,23 @@
+﻿<Page
+    x:Class="Fixurance.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Fixurance"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="White">
+    	<TextBlock HorizontalAlignment="Center" Height="65" TextWrapping="Wrap" Text="FIXURANCE" VerticalAlignment="Top" Width="347" Foreground="#FF2B2B2B" FontSize="64" Margin="0,20,0,0"/>
+    	<Image HorizontalAlignment="Left" Height="100" Margin="650,425,0,0" VerticalAlignment="Top" Width="100"/>
+		
+    	
+		<StackPanel Orientation="Horizontal" Height="551" Margin="10,132,0,0" VerticalAlignment="Top" Width="1346" HorizontalAlignment="Center">
+		<Button Content="Home
+		" HorizontalAlignment="Left" Height="375"  VerticalAlignment="Top" Width="353" Background="#FFAFEA14" FontSize="64"/>
+		<Button Content="Home   " HorizontalAlignment="Left" Height="375" VerticalAlignment="Top" Width="353" Background="#FFAFEA14" FontSize="64"/>
+		<Button Content="Home
+		" HorizontalAlignment="Left" Height="375" VerticalAlignment="Top" Width="353" Background="#FFAFEA14" FontSize="64"/>
+		</StackPanel>
+    </Grid>
+</Page>
