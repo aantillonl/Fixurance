@@ -7,7 +7,7 @@
     <SolutionConfiguration>Debug|AnyCPU</SolutionConfiguration>
     <PackageArchitecture>neutral</PackageArchitecture>
     <PackageIdentityName>7ba511fd-c0ed-47eb-8c7a-d068e151d970</PackageIdentityName>
-    <IntermediateOutputPath>C:\Users\codecamp\Documents\Visual Studio 2013\Projects\Fixurance\Fixurance\obj\Debug\</IntermediateOutputPath>
+    <IntermediateOutputPath>C:\Users\codecamp\Documents\Visual Studio 2013\Projects\Fixurance\Fixurance\Fixurance\Fixurance\obj\Debug\</IntermediateOutputPath>
     <RegisteredManifestChecksum>E2AF7B8CD1CB28C396DF69F8BA8E6C9C0D7B90D462A79CC55D57927DF6CB6723</RegisteredManifestChecksum>
     <RegisteredPackageMoniker>7ba511fd-c0ed-47eb-8c7a-d068e151d970_1.0.0.0_neutral__qj5ja5pefmqbr</RegisteredPackageMoniker>
     <RegisteredUserModeAppID>7ba511fd-c0ed-47eb-8c7a-d068e151d970_qj5ja5pefmqbr!App</RegisteredUserModeAppID>
@@ -17,60 +17,64 @@
     <JitOptimizationSuppressed>True</JitOptimizationSuppressed>
   </PropertyGroup>
   <ItemGroup>
-    <AppXManifest Include="C:\Users\codecamp\Documents\Visual Studio 2013\Projects\Fixurance\Fixurance\bin\Debug\AppxManifest.xml">
+    <AppXManifest Include="C:\Users\codecamp\Documents\Visual Studio 2013\Projects\Fixurance\Fixurance\Fixurance\Fixurance\bin\Debug\AppxManifest.xml">
       <PackagePath>AppxManifest.xml</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2015-05-26T14:22:18.476</Modified>
+      <Modified>2015-05-27T07:23:29.815</Modified>
     </AppXManifest>
   </ItemGroup>
   <ItemGroup>
-    <AppxPackagedFile Include="C:\Users\codecamp\Documents\Visual Studio 2013\Projects\Fixurance\Fixurance\bin\Debug\Fixurance.exe">
+    <AppxPackagedFile Include="C:\Users\codecamp\Documents\Visual Studio 2013\Projects\Fixurance\Fixurance\Fixurance\Fixurance\bin\Debug\Fixurance.exe">
       <PackagePath>Fixurance.exe</PackagePath>
-      <Modified>2015-05-26T14:22:18.331</Modified>
+      <Modified>2015-05-27T07:23:24.052</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\codecamp\Documents\Visual Studio 2013\Projects\Fixurance\Fixurance\Assets\Logo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\codecamp\Documents\Visual Studio 2013\Projects\Fixurance\Fixurance\Fixurance\Fixurance\Assets\Logo.scale-100.png">
       <PackagePath>Assets\Logo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-07-23T04:01:02.000</Modified>
+      <Modified>2015-05-26T13:32:59.218</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\codecamp\Documents\Visual Studio 2013\Projects\Fixurance\Fixurance\Assets\SmallLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\codecamp\Documents\Visual Studio 2013\Projects\Fixurance\Fixurance\Fixurance\Fixurance\Assets\SmallLogo.scale-100.png">
       <PackagePath>Assets\SmallLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-07-23T04:01:02.000</Modified>
+      <Modified>2015-05-26T13:32:59.218</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\codecamp\Documents\Visual Studio 2013\Projects\Fixurance\Fixurance\Assets\SplashScreen.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\codecamp\Documents\Visual Studio 2013\Projects\Fixurance\Fixurance\Fixurance\Fixurance\Assets\SplashScreen.scale-100.png">
       <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-07-23T04:01:02.000</Modified>
+      <Modified>2015-05-26T13:32:59.218</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\codecamp\Documents\Visual Studio 2013\Projects\Fixurance\Fixurance\Assets\StoreLogo.scale-100.png">
+    <AppxPackagedFile Include="C:\Users\codecamp\Documents\Visual Studio 2013\Projects\Fixurance\Fixurance\Fixurance\Fixurance\Assets\StoreLogo.scale-100.png">
       <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-      <Modified>2013-07-23T04:01:02.000</Modified>
+      <Modified>2015-05-26T13:32:59.218</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\codecamp\Documents\Visual Studio 2013\Projects\Fixurance\Fixurance\bin\Debug\App.xbf">
+    <AppxPackagedFile Include="C:\Users\codecamp\Documents\Visual Studio 2013\Projects\Fixurance\Fixurance\Fixurance\Fixurance\bin\Debug\App.xbf">
       <PackagePath>App.xbf</PackagePath>
-      <Modified>2015-05-26T09:55:06.198</Modified>
+      <Modified>2015-05-27T07:23:23.622</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\codecamp\Documents\Visual Studio 2013\Projects\Fixurance\Fixurance\bin\Debug\BlankPage1.xbf">
-      <PackagePath>BlankPage1.xbf</PackagePath>
-      <Modified>2015-05-26T14:22:18.133</Modified>
+    <AppxPackagedFile Include="C:\Users\codecamp\Documents\Visual Studio 2013\Projects\Fixurance\Fixurance\Fixurance\Fixurance\bin\Debug\CustomControls\Estimation.xbf">
+      <PackagePath>CustomControls\Estimation.xbf</PackagePath>
+      <Modified>2015-05-27T07:23:23.646</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\codecamp\Documents\Visual Studio 2013\Projects\Fixurance\Fixurance\bin\Debug\HomePage.xbf">
+    <AppxPackagedFile Include="C:\Users\codecamp\Documents\Visual Studio 2013\Projects\Fixurance\Fixurance\Fixurance\Fixurance\bin\Debug\HomePage.xbf">
       <PackagePath>HomePage.xbf</PackagePath>
-      <Modified>2015-05-26T14:22:18.138</Modified>
+      <Modified>2015-05-27T07:23:23.647</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\codecamp\Documents\Visual Studio 2013\Projects\Fixurance\Fixurance\bin\Debug\MainPage.xbf">
+    <AppxPackagedFile Include="C:\Users\codecamp\Documents\Visual Studio 2013\Projects\Fixurance\Fixurance\Fixurance\Fixurance\bin\Debug\MainPage.xbf">
       <PackagePath>MainPage.xbf</PackagePath>
-      <Modified>2015-05-26T14:22:18.141</Modified>
+      <Modified>2015-05-27T07:23:23.654</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\codecamp\Documents\Visual Studio 2013\Projects\Fixurance\Fixurance\bin\Debug\Fixurance.xr.xml">
+    <AppxPackagedFile Include="C:\Users\codecamp\Documents\Visual Studio 2013\Projects\Fixurance\Fixurance\Fixurance\Fixurance\bin\Debug\Template.xbf">
+      <PackagePath>Template.xbf</PackagePath>
+      <Modified>2015-05-27T07:23:23.658</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\codecamp\Documents\Visual Studio 2013\Projects\Fixurance\Fixurance\Fixurance\Fixurance\bin\Debug\Fixurance.xr.xml">
       <PackagePath>Fixurance.xr.xml</PackagePath>
-      <Modified>2015-05-26T14:22:18.111</Modified>
+      <Modified>2015-05-27T07:23:23.254</Modified>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\codecamp\Documents\Visual Studio 2013\Projects\Fixurance\Fixurance\bin\Debug\resources.pri">
+    <AppxPackagedFile Include="C:\Users\codecamp\Documents\Visual Studio 2013\Projects\Fixurance\Fixurance\Fixurance\Fixurance\bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
-      <Modified>2015-05-26T14:22:18.403</Modified>
+      <Modified>2015-05-27T07:23:24.394</Modified>
     </AppxPackagedFile>
   </ItemGroup>
   <ItemGroup>

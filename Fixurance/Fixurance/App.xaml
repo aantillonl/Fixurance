@@ -4,13 +4,36 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
     xmlns:local="using:Fixurance">
     <Application.Resources>
+        <!--MainFontColor is for text (except text inside buttons) -->
         <SolidColorBrush x:Key="MainFontColor" Color="White"/>
+        
+        <!--ControlBackgroundColor is for buttons backgrounds -->
         <SolidColorBrush x:Key="ControlBackgroundColor" Color="White"/>
+
+        <!--BigFontSize for text in buttons -->
+        <x:Double x:Key="BigFontSize">48</x:Double>
+
+        <!--MainFontSize for text in buttons -->
         <x:Double x:Key="MainFontSize">48</x:Double>
+
+        <!--SmallFontSize for text in buttons -->
+        <x:Double x:Key="SmallFontSize">27</x:Double>
+
+        <!--MainColor Background and buttons text -->
         <SolidColorBrush x:Key="MainColor" Color="#008000"/>
+
+        <!--SecondaryColor for buttons background -->
         <SolidColorBrush x:Key="SecondaryColor" Color="White"/>
+
+        <!--OkButtonColor for buttons background -->
         <SolidColorBrush x:Key="OkButtonColor" Color="Green"/>
-        <SolidColorBrush x:Key="CancelButtonColor" Color="Red"/>        
+
+        <!--CancelButtonColor for buttons background -->
+        <SolidColorBrush x:Key="CancelButtonColor" Color="#FF8D7171"/>
+
+        <Style TargetType="TextBlock">
+            <Setter Property="Margin" Value="5"/>
+        </Style>
     </Application.Resources>
 
 </Application>

@@ -57,15 +57,15 @@
     		<TextBlock Grid.Row="6" Grid.Column="0" HorizontalAlignment="right"  VerticalAlignment="stretch" TextWrapping="Wrap" Foreground="#FF080000" FontSize="26.667" Text="Start Date :&#xA;"/>
     		<DatePicker Grid.Row="6" Grid.Column="1" Grid.ColumnSpan="3" HorizontalAlignment="left" Height="52" VerticalAlignment="Top" Width="262"/>
 			<TextBlock Grid.Row="7" Grid.Column="0" HorizontalAlignment="right" VerticalAlignment="stretch" Foreground="#FF080000" FontSize="26.667" Text="Billing Period :&#xA;"/>
-    		<Button Grid.Row="7" Grid.Column="1" Content="Monthly" HorizontalAlignment="stretch" Height="auto" VerticalAlignment="stretch" Width="auto" Background="Green" FontSize="18.667"/>
-    		<Button Grid.Row="7" Grid.Column="3" Content="Quarterly" HorizontalAlignment="stretch" Height="auto" VerticalAlignment="stretch" Width="auto" Background="Green" FontSize="18.667"/>
-    		<Button Grid.Row="7" Grid.Column="5" Content="Yearly" HorizontalAlignment="stretch" Height="auto" VerticalAlignment="stretch" Width="auto" Background="Green" FontSize="18.667"/>
+    		<Button Grid.Row="7" Grid.Column="1" Content="Monthly" HorizontalAlignment="stretch" Height="auto" VerticalAlignment="stretch" Width="auto" Background="Green" FontSize="18.667" FontWeight="Normal"/>
+    		<Button Grid.Row="7" Grid.Column="3" Content="Quarterly" HorizontalAlignment="stretch" Height="auto" VerticalAlignment="stretch" Width="auto" Background="Green" FontSize="18.667" FontWeight="Normal"/>
+    		<Button Grid.Row="7" Grid.Column="5" Content="Yearly" HorizontalAlignment="stretch" Height="auto" VerticalAlignment="stretch" Width="auto" Background="Green" FontSize="18.667" FontWeight="Normal"/>
 			<TextBlock Grid.Row="8" Grid.Column="0" HorizontalAlignment="right" VerticalAlignment="stretch" TextWrapping="Wrap" Foreground="#FF080000" FontSize="26.667" Text="Currency :&#xA;"/>
-    		<Button Grid.Row="8" Grid.Column="1" Content="Euro" HorizontalAlignment="stretch" Height="auto" VerticalAlignment="stretch" Width="auto" Background="Green" FontSize="18.667"/>
-    		<Button Grid.Row="8" Grid.Column="3" Content="Dollar" HorizontalAlignment="stretch" Height="auto" VerticalAlignment="stretch" Width="auto" Background="Green" FontSize="18.667"/>
-		
-    	<Button Grid.Row="9" Grid.Column="12" Content="Reset" HorizontalAlignment="stretch" Height="auto" VerticalAlignment="stretch" Width="152" Background="#FF8D7171" FontSize="18.667" FontWeight="Bold"/>
-    	<Button Grid.Row="9" Grid.Column="11" Content="Estimate" HorizontalAlignment="stretch" Height="auto" VerticalAlignment="stretch" Width="152" Background="#FF8D7171" FontSize="18.667" FontWeight="Bold"/>
+    		<Button Grid.Row="8" Grid.Column="1" Content="Euro" HorizontalAlignment="stretch" Height="auto" VerticalAlignment="stretch" Width="auto" Background="Green" FontSize="18.667" FontWeight="Normal"/>
+    		<Button Grid.Row="8" Grid.Column="3" Content="Dollar" HorizontalAlignment="stretch" Height="auto" VerticalAlignment="stretch" Width="auto" Background="Green" FontSize="18.667" FontWeight="Normal"/>
+
+        <Button Grid.Row="9" Grid.Column="12" Content="Reset" HorizontalAlignment="stretch" Height="auto" VerticalAlignment="stretch" Width="152" Background="{StaticResource CancelButtonColor}" FontSize="18.667" FontWeight="Bold"/>
+        <Button Grid.Row="9" Grid.Column="11" Content="Estimate" HorizontalAlignment="stretch" Height="auto" VerticalAlignment="stretch" Width="152" Background="{StaticResource OkButtonColor}" FontSize="18.667" FontWeight="Bold"/>
     	
     	
     	

@@ -1,0 +1,45 @@
+﻿<UserControl
+    x:Class="Fixurance.CustomControls.Estimation"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:Fixurance.CustomControls"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d"
+    d:DesignHeight="300"
+    d:DesignWidth="400">
+
+    <Grid Background="{StaticResource MainColor}">
+        <Grid Background="{StaticResource MainColor}">
+            <Grid.RowDefinitions>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+                <RowDefinition></RowDefinition>
+            </Grid.RowDefinitions>
+            <Viewbox Stretch="Uniform">
+                <TextBlock Text="Estimation Price" Foreground="{StaticResource MainFontColor}" FontSize="{StaticResource MainFontSize}"></TextBlock>
+            </Viewbox>
+            <Border Background="{StaticResource SecondaryColor}" Grid.Row="1">
+                <Viewbox Stretch="Uniform">
+                <TextBlock FontSize="{StaticResource MainFontSize}" Foreground="{StaticResource MainColor}">200 €</TextBlock>
+                </Viewbox>
+            </Border>
+            <StackPanel Grid.Row="2" Orientation="Vertical">
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock>House</TextBlock>
+                    <TextBlock>90 m2</TextBlock>
+                    <TextBlock>1982</TextBlock>
+                    
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock>Punkkerikatu 2</TextBlock>
+                    <TextBlock>53850</TextBlock>
+                </StackPanel>
+                <StackPanel Orientation="Horizontal">
+                    <TextBlock>20/05/2015</TextBlock>
+                    <TextBlock>Yearly</TextBlock>
+                </StackPanel>
+            </StackPanel>
+        </Grid>        
+    </Grid>
+</UserControl>
