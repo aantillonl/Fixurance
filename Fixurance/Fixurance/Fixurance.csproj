@@ -111,6 +111,12 @@
     <Compile Include="CustomControls\Estimation.xaml.cs">
       <DependentUpon>Estimation.xaml</DependentUpon>
     </Compile>
+    <Compile Include="CustomControls\HomeContact.xaml.cs">
+      <DependentUpon>HomeContact.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="CustomControls\House.xaml.cs">
+      <DependentUpon>House.xaml</DependentUpon>
+    </Compile>
     <Compile Include="HomePage.xaml.cs" />
     <Compile Include="MainPage.xaml.cs">
       <DependentUpon>MainPage.xaml</DependentUpon>
@@ -127,6 +133,26 @@
     <None Include="Fixurance_TemporaryKey.pfx" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Assets\Images\Icons\agree_afternoon.png" />
+    <Content Include="Assets\Images\Icons\agree_morning.png" />
+    <Content Include="Assets\Images\Icons\agree_night.png" />
+    <Content Include="Assets\Images\Icons\agree_weekday.png" />
+    <Content Include="Assets\Images\Icons\agree_weekend.png" />
+    <Content Include="Assets\Images\Icons\insurance_1.png" />
+    <Content Include="Assets\Images\Icons\insurance_12.png" />
+    <Content Include="Assets\Images\Icons\insurance_4.png" />
+    <Content Include="Assets\Images\Icons\insurance_apartment.png" />
+    <Content Include="Assets\Images\Icons\insurance_dolar.png" />
+    <Content Include="Assets\Images\Icons\insurance_euro.png" />
+    <Content Include="Assets\Images\Icons\insurance_house.png" />
+    <Content Include="Assets\Images\Icons\insurance_pairHouse.png" />
+    <Content Include="Assets\Images\Icons\insurance_rawHouse.png" />
+    <Content Include="Assets\Images\Icons\insurance_sauna.png" />
+    <Content Include="Assets\Images\Icons\insurance_summerHouse.png" />
+    <Content Include="Assets\Images\logo.png" />
+    <Content Include="Assets\Images\main_callMeLater.png" />
+    <Content Include="Assets\Images\main_home.png" />
+    <Content Include="Assets\Images\main_innercircle.png" />
     <Content Include="Assets\Logo.scale-100.png" />
     <Content Include="Assets\SmallLogo.scale-100.png" />
     <Content Include="Assets\SplashScreen.scale-100.png" />
@@ -138,6 +164,14 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Page Include="CustomControls\Estimation.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CustomControls\HomeContact.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="CustomControls\House.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
