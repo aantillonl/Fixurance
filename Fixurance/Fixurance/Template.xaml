@@ -10,15 +10,23 @@
     <Grid Background="{StaticResource MainColor}" >
         <Grid>
             <Grid.RowDefinitions>
-                <RowDefinition Height="*" />
-                <RowDefinition Height="8*"/>
-                <RowDefinition Height="*" />
+                <RowDefinition Height="15*" />
+                <RowDefinition Height="75*"/>
+                <RowDefinition Height="10*" />
             </Grid.RowDefinitions>
-            <TextBlock x:Name="Logo"  Grid.Row="0" HorizontalAlignment="Left" TextWrapping="Wrap" Text="FIXURANCE" Foreground="{StaticResource MainFontColor}" FontSize="{StaticResource MainFontSize}"/>
+            <Image HorizontalAlignment="Left" Height="100" Margin="10,10,0,0" Grid.RowSpan="2" VerticalAlignment="Top" Source="/Assets/Images/logo.png"/>
             <Viewbox Stretch="Uniform"  Grid.Row="2" HorizontalAlignment="Left">
-                <Button  x:Name="HomeButton" Content="Home" HorizontalAlignment="Left" VerticalAlignment="Stretch" Foreground="{StaticResource MainColor}"   Background="{StaticResource ControlBackgroundColor}"/>
+                <Button  x:Name="HomeButton" Content="Home" HorizontalAlignment="Left" VerticalAlignment="Stretch" Foreground="{StaticResource MainColor}"   Background="{StaticResource ControlBackgroundColor}"/>               
             </Viewbox>
-            
+           
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" VerticalAlignment="Bottom" Grid.Row="2">
+            <Viewbox Stretch="Uniform"  Grid.Row="2">
+                    <Button  x:Name="OkButton" Content="Ok" VerticalAlignment="Stretch" Foreground="{StaticResource SecondaryColor}"   Background="{StaticResource OkButtonColor}"/>
+            </Viewbox>
+            <Viewbox Stretch="Uniform"  Grid.Row="2" >
+                    <Button  x:Name="CancelButton" Content="Cancel" VerticalAlignment="Stretch" Foreground="{StaticResource SecondaryColor}"   Background="{StaticResource CancelButtonColor}"/>
+            </Viewbox>
+            </StackPanel>
         </Grid >
     </Grid>
 </Page>

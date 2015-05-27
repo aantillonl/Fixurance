@@ -26,13 +26,17 @@
         <SolidColorBrush x:Key="SecondaryColor" Color="White"/>
 
         <!--OkButtonColor for buttons background -->
-        <SolidColorBrush x:Key="OkButtonColor" Color="Green"/>
+        <SolidColorBrush x:Key="OkButtonColor" Color="Blue"/>
 
         <!--CancelButtonColor for buttons background -->
         <SolidColorBrush x:Key="CancelButtonColor" Color="#FF8D7171"/>
 
         <Style TargetType="TextBlock">
             <Setter Property="Margin" Value="5"/>
+        </Style>
+
+        <Style TargetType="Button">
+            <Setter Property="BorderThickness" Value="0"/>
         </Style>
     </Application.Resources>
 
